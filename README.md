@@ -1,9 +1,9 @@
 #cppDbg  
-Header-only cpp library to easily output the name and value of variables
+Single-header-file cpp library to easily output the name and value of variables optionally including filename, line number, time and date
 
 ##Version 1.0.0
 
-##example
+##Example
 Same as `example.cpp`  
 ```cpp
 bool b = true;
@@ -73,7 +73,7 @@ DBG: (May  8 2015 -- 14:13:40) b = 1  (Line: 47)
 DBG: (May  8 2015 -- 14:13:40) b = 1  (Line: 48 of example.cpp)
 ```
 
-##suffixes explained
+##Suffixes explained
 ```
 F => Filename  
 L => Line number
@@ -81,11 +81,11 @@ T => Time
 D => Date
 ```
 
-##using in your project
-Just add `cppDbg.h` to your include folders and  `#include "cppDbg.h"`
+##Using in your project
+Just add `cppDbg.h` to your include path and  `#include "cppDbg.h"`
 
-##building the example
+##Building the example
 `g++ example.cpp -o example`
 
-#LICENSE
+#License
 See `LICENSE`
