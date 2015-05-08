@@ -6,6 +6,11 @@ Single-header-file cpp library to easily output the name and value of variables 
 ##Example
 Same as `example.cpp`  
 ```cpp
+#define CPPDBG //enable debugging. Remove this line to disable all output. (must be enabled before including cppDbg)  
+#include "cppDbg.h"  
+
+...  
+
 bool b = true;
 char c = 'c';
 int i = 5;
@@ -81,8 +86,9 @@ T => Time
 D => Date
 ```
 
-##Using in your project
-Just add `cppDbg.h` to your include path and  `#include "cppDbg.h"`
+##Usage in your project
+Just add `cppDbg.h` to your include path and  `#include "cppDbg.h"`  
+To enable the outputs `#define CPPDBG` before the include  
 
 ##Building the example
 `g++ example.cpp -o example`

@@ -15,6 +15,7 @@
 #ifndef CPPDBG_H
 #define CPPDBG_H
 
+#ifdef CPPDBG //only if debugging flag was set
 
 #include <iostream>
 
@@ -51,5 +52,38 @@
 
 #define DBGDTLF(x) std::cout << "DBG: (" << __DATE__ " -- " << __TIME__ << ") " << #x << " = " << x << "  (Line: " << __LINE__ << " of " << __FILE__ << ")" << std::endl;
 
+
+
+#else //debugging flag wasn't set, do nothing
+
+
+
+#define DBG(x)
+
+#define DBGF(x)
+
+#define DBGL(x)
+
+#define DBGLF(x)
+
+#define DBGT(x)
+
+#define DBGTF(x)
+
+#define DBGTL(x)
+
+#define DBGTLF(x)
+
+#define DBGDT(x)
+
+#define DBGDTF(x)
+
+#define DBGDTL(x)
+
+#define DBGDTLF(x)
+
+
+
+#endif // CPPDBG
 
 #endif // CPPDBG_H

@@ -12,6 +12,7 @@
 */
 
 
+#define CPPDBG //enable debugging. Remove this line to disable all output. (must be enabled before including cppDbg)
 #include "cppDbg.h"
 
 int main()
