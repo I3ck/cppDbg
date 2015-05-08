@@ -3,5 +3,6 @@
 *.cbp
 *.test
 *.swp
+*.exe
 bin/
 obj/
