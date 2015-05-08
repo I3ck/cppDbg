@@ -1,6 +1,7 @@
 #cppDbg  
 Header-only cpp library to easily output the name and value of variables
 
+##Version 1.0.0
 
 ##example
 Same as `example.cpp`  
