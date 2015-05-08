@@ -72,8 +72,19 @@ DBG: (May  8 2015 -- 14:13:40) b = 1  (Line: 47)
 DBG: (May  8 2015 -- 14:13:40) b = 1  (Line: 48 of example.cpp)
 ```
 
+##suffixes explained
+```
+F => Filename  
+L => Line number
+T => Time
+D => Date
+```
+
 ##using in your project
 Just add `cppDbg.h` to your include folders and  `#include "cppDbg.h"`
 
 ##building the example
 `g++ example.cpp -o example`
+
+#LICENSE
+See `LICENSE`
