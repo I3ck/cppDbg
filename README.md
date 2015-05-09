@@ -1,7 +1,7 @@
 #cppDbg  
 Single-header-file cpp library to easily output the name and value of variables optionally including filename, line number, time and date
 
-##Version 1.0.0
+##Version 1.0.1
 
 ##Example
 Same as `example.cpp`  
