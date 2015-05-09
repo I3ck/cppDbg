@@ -70,29 +70,41 @@ std::cout << "DBG: (" << __DATE__ " -- " << __TIME__ << ") " << #x << " = " << x
 
 
 
-#define DBG(x)
+#define DBG(x) \
+((void)0)
 
-#define DBGF(x)
+#define DBGF(x) \
+((void)0)
 
-#define DBGL(x)
+#define DBGL(x) \
+((void)0)
 
-#define DBGLF(x)
+#define DBGLF(x) \
+((void)0)
 
-#define DBGT(x)
+#define DBGT(x) \
+((void)0)
 
-#define DBGTF(x)
+#define DBGTF(x) \
+((void)0)
 
-#define DBGTL(x)
+#define DBGTL(x) \
+((void)0)
 
-#define DBGTLF(x)
+#define DBGTLF(x) \
+((void)0)
 
-#define DBGDT(x)
+#define DBGDT(x) \
+((void)0)
 
-#define DBGDTF(x)
+#define DBGDTF(x) \
+((void)0)
 
-#define DBGDTL(x)
+#define DBGDTL(x) \
+((void)0)
 
-#define DBGDTLF(x)
+#define DBGDTLF(x) \
+((void)0)
 
 
 
