@@ -21,48 +21,72 @@
 
 //only variable
 #define DBG(x) \
-std::cout << "DBG: " << #x << " = " << x << std::endl
+    do { \
+    std::cout << "DBG: " << #x << " = " << x << std::endl; \
+} while(false)
 
 //variable and filename
 #define DBGF(x) \
-std::cout << "DBG: " << #x << " = " << x << "  (File: " << __FILE__ << ")" << std::endl
+do { \
+    std::cout << "DBG: " << #x << " = " << x << "  (File: " << __FILE__ << ")" << std::endl; \
+} while(false)
 
 //variable and line number
 #define DBGL(x) \
-std::cout << "DBG: " << #x << " = " << x << "  (Line: " << __LINE__ << ")" << std::endl
+do { \
+    std::cout << "DBG: " << #x << " = " << x << "  (Line: " << __LINE__ << ")" << std::endl; \
+} while(false)
 
 //variable, line number and filename
 #define DBGLF(x) \
-std::cout << "DBG: " << #x << " = " << x << "  (Line: " << __LINE__ << " of " << __FILE__ << ")" << std::endl
+do { \
+    std::cout << "DBG: " << #x << " = " << x << "  (Line: " << __LINE__ << " of " << __FILE__ << ")" << std::endl; \
+} while(false)
 
 
 //same as above with time suffixed
 
 #define DBGT(x) \
-std::cout << "DBG: (" << __TIME__ << ") " << #x << " = " << x << std::endl
+do { \
+    std::cout << "DBG: (" << __TIME__ << ") " << #x << " = " << x << std::endl; \
+} while(false)
 
 #define DBGTF(x) \
-std::cout << "DBG: (" << __TIME__ << ") " << #x << " = " << x << "  (File: " << __FILE__ << ")" << std::endl
+do { \
+    std::cout << "DBG: (" << __TIME__ << ") " << #x << " = " << x << "  (File: " << __FILE__ << ")" << std::endl; \
+} while(false)
 
 #define DBGTL(x) \
-std::cout << "DBG: (" << __TIME__ << ") " << #x << " = " << x << "  (Line: " << __LINE__ << ")" << std::endl
+do { \
+    std::cout << "DBG: (" << __TIME__ << ") " << #x << " = " << x << "  (Line: " << __LINE__ << ")" << std::endl; \
+} while(false)
 
 #define DBGTLF(x) \
-std::cout << "DBG: (" << __TIME__ << ") " << #x << " = " << x << "  (Line: " << __LINE__ << " of " << __FILE__ << ")" << std::endl
+do { \
+    std::cout << "DBG: (" << __TIME__ << ") " << #x << " = " << x << "  (Line: " << __LINE__ << " of " << __FILE__ << ")" << std::endl; \
+} while(false)
 
 //same as above but also with date suffixed
 
 #define DBGDT(x) \
-std::cout << "DBG: (" << __DATE__ " -- " << __TIME__ << ") " << #x << " = " << x << std::endl
+do { \
+    std::cout << "DBG: (" << __DATE__ " -- " << __TIME__ << ") " << #x << " = " << x << std::endl; \
+} while(false)
 
 #define DBGDTF(x) \
-std::cout << "DBG: (" << __DATE__ " -- " << __TIME__ << ") " << #x << " = " << x << "  (File: " << __FILE__ << ")" << std::endl
+do { \
+    std::cout << "DBG: (" << __DATE__ " -- " << __TIME__ << ") " << #x << " = " << x << "  (File: " << __FILE__ << ")" << std::endl; \
+} while(false)
 
 #define DBGDTL(x) \
-std::cout << "DBG: (" << __DATE__ " -- " << __TIME__ << ") " << #x << " = " << x << "  (Line: " << __LINE__ << ")" << std::endl
+do { \
+    std::cout << "DBG: (" << __DATE__ " -- " << __TIME__ << ") " << #x << " = " << x << "  (Line: " << __LINE__ << ")" << std::endl; \
+} while(false)
 
 #define DBGDTLF(x) \
-std::cout << "DBG: (" << __DATE__ " -- " << __TIME__ << ") " << #x << " = " << x << "  (Line: " << __LINE__ << " of " << __FILE__ << ")" << std::endl
+do { \
+    std::cout << "DBG: (" << __DATE__ " -- " << __TIME__ << ") " << #x << " = " << x << "  (Line: " << __LINE__ << " of " << __FILE__ << ")" << std::endl; \
+} while(false)
 
 
 
@@ -71,40 +95,52 @@ std::cout << "DBG: (" << __DATE__ " -- " << __TIME__ << ") " << #x << " = " << x
 
 
 #define DBG(x) \
-((void)0)
+do { \
+} while(false)
 
 #define DBGF(x) \
-((void)0)
+do { \
+} while(false)
 
 #define DBGL(x) \
-((void)0)
+do { \
+} while(false)
 
 #define DBGLF(x) \
-((void)0)
+do { \
+} while(false)
 
 #define DBGT(x) \
-((void)0)
+do { \
+} while(false)
 
 #define DBGTF(x) \
-((void)0)
+do { \
+} while(false)
 
 #define DBGTL(x) \
-((void)0)
+do { \
+} while(false)
 
 #define DBGTLF(x) \
-((void)0)
+do { \
+} while(false)
 
 #define DBGDT(x) \
-((void)0)
+do { \
+} while(false)
 
 #define DBGDTF(x) \
-((void)0)
+do { \
+} while(false)
 
 #define DBGDTL(x) \
-((void)0)
+do { \
+} while(false)
 
 #define DBGDTLF(x) \
-((void)0)
+do { \
+} while(false)
 
 
 
